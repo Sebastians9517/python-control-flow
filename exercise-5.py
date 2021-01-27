@@ -12,3 +12,19 @@
 #      etc.
 
 # Hint: The next number is found by adding the two numbers before it
+
+
+def fib(n):
+    a, b = 0, 1
+
+    print(a)
+    print(b)
+
+    for i in range(2, n):
+        c = a + b
+        a = b
+        b = c
+
+        print(f"term: {i} / number: {c}")
+
+fib(51)
