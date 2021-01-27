@@ -16,11 +16,11 @@
 def is_a_vowel(c):
     vowels = "aeiouAEIOU"
     if c in vowels:
-        print(f"The letter {c} is a vowel")
+        print(f"The letter {c} is a vowel.")
     else:
-        print(f"The letter {c} is a consonant")
+        print(f"The letter {c} is a consonant.")
 
-print(is_a_vowel(input("Please enter a letter from the alphabet (a - z or A - Z)")))
+print(is_a_vowel(input("Please enter a letter from the alphabet (a - z or A - Z): ")))
 
 
 
